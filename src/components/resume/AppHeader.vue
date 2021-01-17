@@ -1,13 +1,13 @@
 <template>
   <div>
-    <h1>{{ titleHeader }}</h1>
+    <h1>{{ title }}</h1>
   </div>
 </template>
 
 <script>
 export default {
   props: {
-    titleHeader: {
+    title: {
       type: String,
       required: true/*,
       validator(value) {

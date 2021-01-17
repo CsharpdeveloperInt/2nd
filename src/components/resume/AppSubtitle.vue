@@ -1,11 +1,11 @@
 <template>
-  <p>{{ text }}</p>
+  <h2>{{ title }}</h2>
 </template>
 
 <script>
 export default {
   props:{
-    text:{
+    title:{
       type: String,
       required: true
     }
